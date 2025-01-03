@@ -2,11 +2,11 @@ require('dotenv').config();
 
 global.owner = process.env.OWNER_NUMBER.split(','); 
 global.anitav4 = process.env.BOT_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
-global.ownername = process.env.OWNER_NAME || "David Cyril";
+global.ownername = process.env.OWNER_NAME || "Mike ff";
 global.packname = process.env.PACK_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
-global.author = process.env.AUTHOR || "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋";
-global.channelname = process.env.CHANNEL_NAME || "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋";
-global.channeljid = process.env.CHANNEL_JID || "120363315231436175@newsletter";
+global.author = process.env.AUTHOR || "Mike ff";
+global.channelname = process.env.CHANNEL_NAME || "Mike ff";
+global.channeljid = process.env.CHANNEL_JID || "";
 global.autoTyping = process.env.AUTO_TYPING === 'false'; 
 global.autoRecord = process.env.AUTO_RECORD === 'false';
 global.autoViewStatus = process.env.AUTO_VIEW_STATUS === 'true';
